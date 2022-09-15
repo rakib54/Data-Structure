@@ -62,7 +62,7 @@ int main () {
     first->next = second;
 
     ListInsert(head,0,100);
-    deleteList(head,1);
+    deleteList(head,3);
     printList(head);
 
     return 0;
